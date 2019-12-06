@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="15" total="21" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17345" started-at="2019-12-06T12:16:40Z" finished-at="2019-12-06T12:16:57Z">
+    <groups>
+      <group name="customer">
+        <method signature="CreateCustomer_Config.CreateCustomerValidParameter()[pri:2, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="CreateCustomerValidParameter" class="TestCasesScript_Using_ConfigProperties.CreateCustomer_Config"/>
+        <method signature="CreateCustomer_Config.CreateCustomerValidSecretKey()[pri:1, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="CreateCustomerValidSecretKey" class="TestCasesScript_Using_ConfigProperties.CreateCustomer_Config"/>
+        <method signature="CreateCustomer_Config.CreateCustomerWithInvalidParameter()[pri:3, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="CreateCustomerWithInvalidParameter" class="TestCasesScript_Using_ConfigProperties.CreateCustomer_Config"/>
+        <method signature="CreateCustomer_Config.CreateCustomerWithInvalidSecretKey()[pri:4, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="CreateCustomerWithInvalidSecretKey" class="TestCasesScript_Using_ConfigProperties.CreateCustomer_Config"/>
+        <method signature="CreateCustomer_Config.CreateCustomerWithNoSecretKey()[pri:5, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="CreateCustomerWithNoSecretKey" class="TestCasesScript_Using_ConfigProperties.CreateCustomer_Config"/>
+      </group> <!-- customer -->
+    </groups>
+    <test name="Test" duration-ms="17345" started-at="2019-12-06T12:16:40Z" finished-at="2019-12-06T12:16:57Z">
+      <class name="TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config@37afeb11]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-12-06T12:16:45Z" finished-at="2019-12-06T12:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config.RetriveCustomerWithValidSecretKey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config@37afeb11]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:45Z" finished-at="2019-12-06T12:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="RetriveCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config@37afeb11]" name="RetriveCustomerWithValidSecretKey" duration-ms="890" started-at="2019-12-06T12:16:45Z" finished-at="2019-12-06T12:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetriveCustomerWithValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config@37afeb11]" name="afterMethod" is-config="true" duration-ms="230" started-at="2019-12-06T12:16:46Z" finished-at="2019-12-06T12:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RetriveCustomerWithValidSecretKey status=SUCCESS method=RetriveCustomer_Config.RetriveCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config@37afeb11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCasesScript_Using_ConfigProperties.RetriveCustomer_Config -->
+      <class name="TestCasesScript_Using_ConfigProperties.CreateCustomer_Config">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="beforeSuite" is-config="true" duration-ms="1146" started-at="2019-12-06T12:16:39Z" finished-at="2019-12-06T12:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-12-06T12:16:40Z" finished-at="2019-12-06T12:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="beforeClass" is-config="true" duration-ms="5" started-at="2019-12-06T12:16:40Z" finished-at="2019-12-06T12:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2019-12-06T12:16:40Z" finished-at="2019-12-06T12:16:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void TestCasesScript_Using_ConfigProperties.CreateCustomer_Config.CreateCustomerValidSecretKey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateCustomerValidSecretKey()[pri:1, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="CreateCustomerValidSecretKey" duration-ms="4431" started-at="2019-12-06T12:16:40Z" finished-at="2019-12-06T12:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="afterMethod" is-config="true" duration-ms="882" started-at="2019-12-06T12:16:44Z" finished-at="2019-12-06T12:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateCustomerValidSecretKey status=SUCCESS method=CreateCustomer_Config.CreateCustomerValidSecretKey()[pri:1, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestCasesScript_Using_ConfigProperties.CreateCustomer_Config@52bf72b5]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-12-06T12:16:57Z" finished-at="2019-12-06T12:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestCasesScript_Using_ConfigProperties.CreateCustomer_Config -->
+      <class name="TestCasesScript_Using_HashMap.RetriveCustomer_Map">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCasesScript_Using_HashMap.RetriveCustomer_Map@245b4bdc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-12-06T12:16:54Z" finished-at="2019-12-06T12:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCasesScript_Using_HashMap.RetriveCustomer_Map.RetriveCustomerWithValidSecretKey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCasesScript_Using_HashMap.RetriveCustomer_Map@245b4bdc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:54Z" finished-at="2019-12-06T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="RetriveCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_HashMap.RetriveCustomer_Map@245b4bdc]" name="RetriveCustomerWithValidSecretKey" duration-ms="973" started-at="2019-12-06T12:16:54Z" finished-at="2019-12-06T12:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetriveCustomerWithValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCasesScript_Using_HashMap.RetriveCustomer_Map@245b4bdc]" name="afterMethod" is-config="true" duration-ms="159" started-at="2019-12-06T12:16:55Z" finished-at="2019-12-06T12:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RetriveCustomerWithValidSecretKey status=SUCCESS method=RetriveCustomer_Map.RetriveCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_HashMap.RetriveCustomer_Map@245b4bdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCasesScript_Using_HashMap.RetriveCustomer_Map -->
+      <class name="TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config@515aebb0]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:46Z" finished-at="2019-12-06T12:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="DeleteCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config@515aebb0]" name="DeleteCustomerWithValidSecretKey" duration-ms="3826" started-at="2019-12-06T12:16:46Z" finished-at="2019-12-06T12:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomerWithValidSecretKey -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config@515aebb0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:46Z" finished-at="2019-12-06T12:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config.DeleteCustomerWithValidSecretKey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config@515aebb0]" name="afterMethod" is-config="true" duration-ms="141" started-at="2019-12-06T12:16:50Z" finished-at="2019-12-06T12:16:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteCustomerWithValidSecretKey status=SUCCESS method=DeleteCustomer_Config.DeleteCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config@515aebb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCasesScript_Using_ConfigProperties.DeleteCustomer_Config -->
+      <class name="TestCasesScript_Using_HashMap.CreateCustomer_Map">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCasesScript_Using_HashMap.CreateCustomer_Map@dd8ba08]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:50Z" finished-at="2019-12-06T12:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="CreateCustomerValidSecretKey()[pri:1, instance:TestCasesScript_Using_HashMap.CreateCustomer_Map@dd8ba08]" name="CreateCustomerValidSecretKey" duration-ms="3371" started-at="2019-12-06T12:16:50Z" finished-at="2019-12-06T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerValidSecretKey -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCasesScript_Using_HashMap.CreateCustomer_Map@dd8ba08]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:50Z" finished-at="2019-12-06T12:16:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCasesScript_Using_HashMap.CreateCustomer_Map.CreateCustomerValidSecretKey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCasesScript_Using_HashMap.CreateCustomer_Map@dd8ba08]" name="afterMethod" is-config="true" duration-ms="135" started-at="2019-12-06T12:16:54Z" finished-at="2019-12-06T12:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateCustomerValidSecretKey status=SUCCESS method=CreateCustomer_Map.CreateCustomerValidSecretKey()[pri:1, instance:TestCasesScript_Using_HashMap.CreateCustomer_Map@dd8ba08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCasesScript_Using_HashMap.CreateCustomer_Map -->
+      <class name="TestCasesScript_Using_HashMap.DeleteCustomer_Map">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCasesScript_Using_HashMap.DeleteCustomer_Map@6c64cb25]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:55Z" finished-at="2019-12-06T12:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCasesScript_Using_HashMap.DeleteCustomer_Map@6c64cb25]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-06T12:16:55Z" finished-at="2019-12-06T12:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCasesScript_Using_HashMap.DeleteCustomer_Map.DeleteCustomerWithValidSecretKey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DeleteCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_HashMap.DeleteCustomer_Map@6c64cb25]" name="DeleteCustomerWithValidSecretKey" duration-ms="2119" started-at="2019-12-06T12:16:55Z" finished-at="2019-12-06T12:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomerWithValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCasesScript_Using_HashMap.DeleteCustomer_Map@6c64cb25]" name="afterMethod" is-config="true" duration-ms="96" started-at="2019-12-06T12:16:57Z" finished-at="2019-12-06T12:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteCustomerWithValidSecretKey status=SUCCESS method=DeleteCustomer_Map.DeleteCustomerWithValidSecretKey()[pri:1, instance:TestCasesScript_Using_HashMap.DeleteCustomer_Map@6c64cb25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCasesScript_Using_HashMap.DeleteCustomer_Map -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
